@@ -18,6 +18,7 @@ let a = "HEllo the above one is printed using this:(` `)  ";
 
 
 // console.log(x.concat(b));  // adding to strings
+
 x[0] = "w"; //--> not work beacuse String is immutable  so, we use replace , check next line 
 console.log(x) ;
 x = x.replace("l","w");  // starting of the alphabet will be replaces (l is available 2 times first l will be changed)
