@@ -74,25 +74,95 @@
 
 
 // Function to print the length of a string
-function printStringLength(str) {
+// function printStringLength(str) {
    
-    const v = "aeiou"
+//     const v = "aeiou"
     
-    let c = 0
-    console.log(str);
+//     let c = 0
+//     console.log(str);
 
-    for(let i of str)
+//     for(let i of str)
+//     {
+//         console.log(i);
+//         if(v.includes(i))
+//         {
+//             c = c + 1;
+//         }
+//     }
+//     console.log(str+"="+c);
+// }
+
+// // Calling the function
+
+// let s = prompt("enter")
+// printStringLength(s); // Output: Length of the string: 18
+
+//                                         Arrow function 
+
+
+// const nov = (str)=> 
+// {
+
+    
+//     const v = "aeiou"
+    
+//     let c = 0
+//     console.log(str);
+
+//     for(let i of str)
+//     {
+       
+//         if(v.includes(i))
+//         {
+//             c = c + 1;
+//         }
+//     }
+//     console.log(str+"="+c);
+
+// }
+
+// nov("TLS is Here")
+
+
+
+// let a = "AnD"
+// a = a.toLowerCase();
+// console.log(a)
+
+
+
+// let a = ["tls","TLS"]
+
+// a.forEach(function str(val,idx, a) {
+// //    console.log(val,idx);
+//    console.log(val.toLowerCase(),idx,a) 
+// });
+
+//                               user array input
+
+// Prompt the user to enter values separated by commas
+let user = prompt("Enter numbers separated by commas:");
+
+// Convert the input string into an array using split()
+let array = user.split(",");
+
+// Trim spaces and convert elements to numbers (if needed)
+// array = array.map(item => item.trim());
+
+// Print the array
+console.log("User-entered array:", array);
+
+
+// array.forEach(function sq(val)
+// {
+//     console.log(val**2);
+// })
+
+// OR
+
+let sq = (n) => 
     {
-        console.log(i);
-        if(v.includes(i))
-        {
-            c = c + 1;
-        }
-    }
-    console.log(str+"="+c);
-}
+        console.log(n*n);
+    } 
 
-// Calling the function
-
-let s = prompt("enter")
-printStringLength(s); // Output: Length of the string: 18
+array.forEach(sq)
