@@ -1,9 +1,11 @@
-#ah1
+#d1
 {
-    background-color: brown;
+    background-color: aqua;
+    /* border: 2px dotted red; */
+    border-top: 3px dashed blue;
+    border-right: 4px solid green;
+    border-bottom: 2px dotted red;
+    border-left: 5px double black;
+
 }
 
-.c1
-{
-    color: red;
-}

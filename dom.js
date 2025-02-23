@@ -30,7 +30,59 @@
 // console.log(document.querySelectorAll("h1"))
 
 
-let c = document.getElementById("ah2")
+// let c = document.getElementById("ah2")
 
-c.innerText = "TLS"
-c.innerHTML = "<i>Lalith Srinivas</i>"
+// c.innerText = "TLS"
+// c.innerHTML = "<i>Lalith Srinivas</i>"
+
+
+// let d = document.querySelector("div");
+
+// console.log(d)
+
+// let c = d.getAttribute("id")
+// console.log(d.setAttribute("id","lal"))
+
+
+let d = document.querySelector("div");
+let b = document.querySelector("body");
+let l = document.querySelector("ul")
+
+d.style.height = "300px";
+
+d.style.width = "100px";
+
+d.style.color = "green"
+
+d.style.backgroundColor = "orange"
+
+
+let bu = document.createElement("button")
+bu.innerText="Srinivas"
+console.log(bu)
+
+
+d.append(bu)
+
+
+let he = document.createElement("h4")
+he.innerText="Lalith"
+
+b.prepend(he)
+
+
+let but0 = document.createElement("option")
+but0.innerText="Thotam"
+
+d.before(but0)
+
+
+
+let but1 = document.createElement("button")
+but1.innerText="TLS"
+l.after(but1)
+
+
+// let h = document.querySelector("h1")
+
+// h.remove()
